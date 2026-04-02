@@ -12,8 +12,10 @@ All datasets were retrieved and pre-processed using Google Earth Engine (GEE). T
   https://developers.google.com/earth-engine/datasets/catalog/LARSE_GEDI_GEDI04_B_002
 - Dynamic World V1 (Masking to isolate forest-only pixels)
   https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1
-  
-![image alt](https://github.com/diniyrti/XGBoost-vs-MLP-Forest-Biomass-Estimation/blob/main/images/GEDI%20L4B%20Dataset.png)
+
+<p align="center">
+  <img src="https://github.com/diniyrti/XGBoost-vs-MLP-Forest-Biomass-Estimation/blob/main/images/GEDI%20L4B%20Dataset.png?raw=true" width="500">
+</p>
 
 ⚙️ Methodology
 Pre-processing Steps:
