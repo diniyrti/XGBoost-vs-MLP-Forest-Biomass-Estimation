@@ -24,8 +24,8 @@ Pre-processing Steps:
 3. Normalization: Standardized features for optimal MLP performance.
 
 Two machine learning architectures were compared:
-- XGBoost: A gradient-boosted decision tree framework known for its efficiency on tabular data.
-- MLP (Multi-Layer Perceptron): A feed-forward artificial neural network designed to capture non-linear relationships.
+- XGBoost: A gradient-boosted decision tree framework
+- MLP (Multi-Layer Perceptron): A feed-forward artificial neural network
 
 📈 Results
 Based on the experimental results, the MLP model outperformed XGBoost, showing higher accuracy and lower error rates in predicting forest biomass density. The MLP model achieved a Root Mean Square Error (RMSE) of 79.935, which is lower than the 80.396 recorded by XGBoost. This indicates that the neural network approach was more effective at minimizing the deviations between the predicted values and the GEDI L4B ground truth.In terms of the correlation between predicted and observed values, the MLP also yielded a higher Coefficient of Determination ($R^2$) of 0.643, compared to XGBoost's 0.639. This suggests that approximately 64.3% of the biomass variance in the study area can be explained by the MLP model using the provided satellite embeddings.
